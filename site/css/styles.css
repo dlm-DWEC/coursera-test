@@ -12,13 +12,13 @@ body {
     border-radius: 0;
     border: 0;
 }
-.navbar-brand h1 {
+.navbar-brand h1 {   
     color: #7c1482;
     font-size: 0.9em;
-    text-transform: uppercase;
+    text-transform: uppercase;   
     margin-top: 0;
     margin-bottom: 10px;
-    line-height: .75;
+    line-height: .75;   
 }
 .navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus{
     text-decoration: none;
@@ -35,7 +35,7 @@ body {
 .navbar-nav li a{
     color:#7c1482 !important;
 }
-.navbar-nav li a:hover{
+.navbar-nav li a:hover, .navbar-nav li a.active{
     background-color:#866788 !important;
     color: #f1e9f1 !important;
 }
